@@ -4,9 +4,9 @@ ThemeData customLightTheme() {
   final ThemeData lightTheme = ThemeData.light();
   return lightTheme.copyWith(
     primaryColor: Colors.teal,
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
         backgroundColor: Colors.teal,
-        titleTextStyle: const TextStyle(
+        titleTextStyle: TextStyle(
           color: Colors.white,
         )
     ),
